@@ -1,0 +1,105 @@
+
+
+<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html>
+  <h1 id="title">freecodecamp Survey Form </h1>
+  <p id= "description"> Thankyou for taking time to help us improve the platform</p>
+  <form id="survey-form">
+
+    <label id="name-label"> Name </label><br>
+    <input type="text" for="name" id="name" placeholder="Enter your name"required><br>
+    <label id="email-label">Email</label><br>
+    <input type="email" for="email" id="email" placeholder="Enter your email" required><br>
+    <label id="number-label">Age (optional)</label><br>
+    <input type="number" for="number" id="number" placeholder="Age" min="18" max="60" required><br>
+    <label id="label1">Which option best describes your current role?</label><br>
+    <!-- input-->
+    <select id="dropdown" required >
+    <option value="student"> student</option>
+    <option value="fulltime job"> fulltime job</option>
+    <option value="fulltime learner"> fulltime learner</option>
+    <option value="prfer not to say"> prfer not to say</option>
+    <option value="others"> others</option></select><br>
+    <label id="label1"> Would you recommend freecodecamp to a friend?</label><br>
+    <input type="radio" for="definetly"id="definetly" name="opinion" value="opinion">Definetly</input><br>
+    <input type="radio" for="maybe"id="maybe"name="opinion" value="opinion" >Maybe</input><br>
+<input type="radio" for="notsure"id="notsure"name="opinion" value="opinion" >Not sure</input><br>
+<label id="label1">What is your favourite feature of freecodecamp?</label><br>
+<select id="dropdown">
+  <option value="challenges">challenges</option>
+   <option value="projects">projects</option>
+    <option value="community">community</option>
+     <option value="opensource">opensource</option>
+     </select><br>
+     <label id="label1"> What would you like to see improved?</label><br>
+<input type="checkbox" value="front-end projects" id="checkbox" for="checkbox">Front-end projects</input><br>
+<input type="checkbox" value="back-end projects" id="checkbox" for="checkbox">Back-end projects</input><br>
+<input type="checkbox" value="Data visualisation" id="checkbox" for="checkbox">Data visualisation</input><br>
+<input type="checkbox" value="challenges" id="checkbox" for="checkbox">challenges</input><br>
+<input type="checkbox" value="Opensource community" id="checkbox" for="checkbox">Opensource community</input><br>
+<input type="checkbox" value="Gitter help rooms" id="checkbox" for="checkbox">Gitter help rooms</input><br>
+<input type="checkbox" value="videos" id="checkbox" for="checkbox">videos</input><br>
+<label> Any comments or suggestions?</label><br>
+<textarea id="textarea" type="text" rows="4" placeholder="comment here..." ></textarea><br>
+<button value="submit" type="submit" name="submit" id="submit">Submit</button>
+</form>
+</html>
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+body{
+  background-image:url(  https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  width:auto;
+  height:100%;
+  
+}
+#title{
+  font-size: 30px;
+  font-family: monospace;
+  text-align:center;
+  }
+  #description{
+    font-size: 15px;
+  font-family: monospace;
+  text-align:center;
+  }
+
+#survey-form{
+  font-size: 40px;
+  width: 800px;
+  background-color: gray;
+  color:rgba(0,0,0,0.8);
+  margin-left: 250px;
+  margin-right:150px;
+  margin-bottom: 120px;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 5px;
+}
+textarea{
+ width: 800px;
+ height:  150px;
+ border-radius:5px;
+
+}
+input,select{
+  width: 800px;
+  height:40px;
+  border-radius:5px;
+}
+#submit{
+  width:800px;
+  height:30px;
+
+}</style>
+
+
+
